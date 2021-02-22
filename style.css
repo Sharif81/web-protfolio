@@ -32,3 +32,20 @@ section {
     height: 600px;
     background-repeat: no-repeat;
 }
+
+.link-button {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 2px 20px 2px 20px;
+    border-radius: 5px; 
+    
+}
+.dream-area {
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    
+}
+
+
+
