@@ -22,9 +22,11 @@ h1 {
 
 .half-width img {
     width: 100%;
+    margin-top: 10px;
 }
 
 .top-banner {
+   
     background-image: url(images/top-banner.png);
 }
 
@@ -47,5 +49,29 @@ section {
     
 }
 
+.shadow-area {
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    height: 60%;
+   
+}
 
+.exprience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
+#full-stock {
+    border-left: 7px solid tomato;
+}
+
+#side-stock {
+    border-left: 7px solid darkblue;
+}
+
+footer {
+    box-shadow: 10px 10px 10px orangered;
+    color: orangered;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
